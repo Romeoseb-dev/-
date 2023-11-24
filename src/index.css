@@ -1,0 +1,9 @@
+:root {
+  background: linear-gradient(
+    92deg,
+    rgb(1, 11, 17) 0%,
+    rgb(13, 1, 26) 50%,
+    rgb(1, 11, 17) 100%
+  );
+  font-family: inconsolata;
+}

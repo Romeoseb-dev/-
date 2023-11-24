@@ -1,0 +1,31 @@
+.container-image-nom {
+  position: relative;
+  text-align: center;
+}
+.image-dev {
+  opacity: 0.2;
+  width: 60%;
+  margin: auto;
+}
+.mon-nom {
+  color: aliceblue;
+  font-size: 8rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.description {
+  color: aliceblue;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

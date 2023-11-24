@@ -1,0 +1,23 @@
+import Navbar from "../components/Navbar";
+import "./Home.css";
+
+function home() {
+  return (
+    <div>
+      <Navbar />
+      <div className="container-image-nom">
+        <img
+          src="../../public/developpeur-web.jpg"
+          alt="image de développeur"
+          className="image-dev"
+        />
+        <h1 className="mon-nom">ROMEO SEBASTIEN</h1>
+        <h2 className="description">
+          développeur fullstack région Toulousaine
+        </h2>
+      </div>
+    </div>
+  );
+}
+
+export default home;

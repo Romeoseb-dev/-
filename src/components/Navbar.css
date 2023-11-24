@@ -1,0 +1,57 @@
+.nom {
+  font-size: 3rem;
+  color: aqua;
+  margin-left: 6rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar-list {
+  color: aliceblue;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.home {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2.2rem;
+  margin-left: 1rem;
+}
+li {
+  margin-left: 6rem;
+}
+.cv {
+  color: aqua;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nom {
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  .navbar-list {
+    margin: 0;
+    padding: 0;
+  }
+  .home {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+  li {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .cv {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+}
