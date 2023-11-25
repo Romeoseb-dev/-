@@ -13,7 +13,7 @@ function home() {
         />
         <h1 className="mon-nom">ROMEO SEBASTIEN</h1>
         <h2 className="description">
-          développeur fullstack région Toulousaine
+          Développeur Fullstack Région Toulousaine
         </h2>
       </div>
     </div>
