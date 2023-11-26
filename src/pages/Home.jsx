@@ -1,5 +1,6 @@
 import Competences from "../components/Competences";
 import Navbar from "../components/Navbar";
+import dev from "../assets/developpeur-web.jpg";
 import "./Home.css";
 
 function home() {
@@ -7,11 +8,7 @@ function home() {
     <div>
       <Navbar />
       <div className="container-image-nom">
-        <img
-          src="../../public/developpeur-web.jpg"
-          alt="image de développeur"
-          className="image-dev"
-        />
+        <img src={dev} alt="image de développeur" className="image-dev" />
         <h1 className="mon-nom">ROMEO SEBASTIEN</h1>
         <h2 className="description">
           Développeur Fullstack Région Toulousaine
