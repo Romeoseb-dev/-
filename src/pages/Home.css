@@ -9,23 +9,24 @@
 }
 .mon-nom {
   color: aliceblue;
-  font-size: 8rem;
+  width: 100rem;
+  font-size: 10vw;
   text-align: center;
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 40%;
+  top: 250px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .description {
   color: aliceblue;
-  font-size: 4rem;
+  font-size: 4vw;
   text-align: center;
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 60%;
+  top: 450px;
   left: 50%;
   transform: translate(-50%, -50%);
 }

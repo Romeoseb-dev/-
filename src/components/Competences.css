@@ -1,0 +1,31 @@
+.competence {
+  color: aliceblue;
+  margin-top: 7rem;
+}
+.mes-competences {
+  font-size: 3rem;
+}
+.block-competence {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.cont-font {
+  border: solid;
+  border-width: 6px 1px 6px 6px;
+  border-color: aliceblue;
+  width: 27%;
+}
+.cont-back {
+  border: solid;
+  border-width: 6px 1px 6px 1px;
+  border-color: aliceblue;
+  width: 27%;
+}
+.cont-gest {
+  border: solid;
+  border-width: 6px 6px 6px 1px;
+  border-color: aliceblue;
+  width: 27%;
+}

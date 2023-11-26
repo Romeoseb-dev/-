@@ -1,3 +1,4 @@
+import Competences from "../components/Competences";
 import Navbar from "../components/Navbar";
 import "./Home.css";
 
@@ -15,6 +16,7 @@ function home() {
         <h2 className="description">
           Développeur Fullstack Région Toulousaine
         </h2>
+        <Competences />
       </div>
     </div>
   );
