@@ -1,7 +1,6 @@
 .nom {
   font-size: 2rem;
   color: aqua;
-  margin-left: 3rem;
 }
 .navbar {
   display: flex;
@@ -14,6 +13,8 @@
   display: flex;
   align-items: center;
   font-size: 1rem;
+  margin: 0;
+  padding: 0;
 }
 .home {
   color: aliceblue;

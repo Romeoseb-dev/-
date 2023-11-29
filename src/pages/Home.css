@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 250px;
+  top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -26,7 +26,16 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 340px;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .mon-nom {
+    top: 12%;
+  }
+  .description {
+    top: 23%;
+  }
 }

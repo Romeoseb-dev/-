@@ -16,6 +16,7 @@
   border-width: 6px 1px 6px 6px;
   border-color: aliceblue;
   width: 27%;
+  margin-top: 0;
 }
 .cont-back {
   border: solid;
@@ -28,4 +29,34 @@
   border-width: 6px 6px 6px 1px;
   border-color: aliceblue;
   width: 27%;
+}
+
+@media screen and (max-width: 600px) {
+  .competence {
+    margin-top: 3.5rem;
+  }
+  .mes-competences {
+    font-size: 1.8rem;
+  }
+  .block-competence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  .cont-font {
+    border-width: 1.5px;
+    width: 90%;
+    margin: 1rem;
+  }
+  .cont-back {
+    border-width: 1.5px;
+    width: 90%;
+    margin: 1rem;
+  }
+  .cont-gest {
+    border-width: 1.5px;
+    width: 90%;
+    margin: 1rem;
+  }
 }
