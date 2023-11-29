@@ -1,41 +1,44 @@
 .nom {
-  font-size: 3rem;
+  font-size: 2rem;
   color: aqua;
-  margin-left: 6rem;
+  margin-left: 3rem;
 }
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .navbar-list {
   color: aliceblue;
   list-style: none;
   display: flex;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .home {
   color: aliceblue;
   text-decoration: none;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   margin-left: 1rem;
 }
 li {
-  margin-left: 6rem;
+  margin-right: 3rem;
 }
 .cv {
   color: aqua;
   text-decoration: none;
-  font-size: 2rem;
-  margin-left: 10rem;
+  font-size: 1rem;
+  margin-right: 3rem;
 }
 @media screen and (max-width: 600px) {
   .navbar {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
   }
   .nom {
-    margin: 1rem;
+    margin: 0;
     font-size: 1.2rem;
   }
   .navbar-list {
@@ -47,11 +50,10 @@ li {
     font-size: 1.2rem;
   }
   li {
-    margin-left: 1rem;
-    font-size: 1rem;
+    display: none;
   }
   .cv {
-    margin-left: 1rem;
+    margin: 0;
     font-size: 1rem;
   }
 }
