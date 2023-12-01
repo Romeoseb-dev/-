@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import { Link } from "react-router-dom";
+
 import "./Navbar.css";
 
 function Navbar() {
@@ -15,7 +16,7 @@ function Navbar() {
           </h3>
         </li>
         <li>
-          <h3>// compétences.</h3>
+          <h3>// mes compétences</h3>
         </li>
         <li>
           <h3>// projets.</h3>

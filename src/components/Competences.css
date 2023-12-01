@@ -15,20 +15,67 @@
   border: solid;
   border-width: 6px 1px 6px 6px;
   border-color: aliceblue;
+  font-size: 1.5rem;
   width: 27%;
-  margin-top: 0;
 }
 .cont-back {
   border: solid;
   border-width: 6px 1px 6px 1px;
   border-color: aliceblue;
+  font-size: 1.5rem;
   width: 27%;
 }
 .cont-gest {
   border: solid;
   border-width: 6px 6px 6px 1px;
   border-color: aliceblue;
+  font-size: 1.5rem;
   width: 27%;
+}
+.icons {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.font,
+.back,
+.gestion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.soul-comp-font {
+  background: linear-gradient(
+    to bottom,
+    transparent 70%,
+    rgb(49, 39, 189) 100%
+  );
+  background-clip: text;
+}
+
+.soul-comp-back {
+  background: linear-gradient(
+    to bottom,
+    transparent 70%,
+    rgb(255, 0, 153) 100%
+  );
+  background-clip: text;
+}
+
+.soul-comp-gest {
+  background: linear-gradient(to bottom, transparent 80%, yellow 100%);
+  background-clip: text;
+}
+.comp {
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.balise {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  display: flex;
+  color: dimgray;
 }
 
 @media screen and (max-width: 600px) {
@@ -48,15 +95,18 @@
     border-width: 1.5px;
     width: 90%;
     margin: 1rem;
+    font-size: 1.2rem;
   }
   .cont-back {
     border-width: 1.5px;
     width: 90%;
     margin: 1rem;
+    font-size: 1.2rem;
   }
   .cont-gest {
     border-width: 1.5px;
     width: 90%;
     margin: 1rem;
+    font-size: 1.2rem;
   }
 }

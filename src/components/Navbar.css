@@ -39,8 +39,7 @@ li {
     align-items: center;
   }
   .nom {
-    margin: 0;
-    font-size: 1.2rem;
+    display: none;
   }
   .navbar-list {
     margin: 0;
@@ -51,7 +50,7 @@ li {
     font-size: 1.2rem;
   }
   li {
-    display: none;
+    margin: 0.5rem;
   }
   .cv {
     margin: 0;

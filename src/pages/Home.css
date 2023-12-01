@@ -33,9 +33,9 @@
 
 @media screen and (max-width: 600px) {
   .mon-nom {
-    top: 12%;
+    top: 48px;
   }
   .description {
-    top: 23%;
+    top: 100px;
   }
 }
