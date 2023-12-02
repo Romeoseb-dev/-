@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
 import lecv from "../assets/cv.jpg";
 import "./Cv.css";
 

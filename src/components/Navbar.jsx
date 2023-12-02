@@ -18,6 +18,14 @@ function Navbar() {
       behavior: "smooth",
     });
   };
+  const handleScrollCv = () => {
+    const offset = window.innerWidth < 600 ? 1400 : 1100;
+
+    window.scrollTo({
+      top: offset,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="navbar">
@@ -40,10 +48,14 @@ function Navbar() {
         <li>
           <h3>// Projets.</h3>
         </li>
+        <li>
+          <h3>
+            <Link className="home" to="/" onClick={handleScrollCv}>
+              // Mon Cv.
+            </Link>
+          </h3>
+        </li>
       </ul>
-      <Link className="cv" to="/cv">
-        <h3>// Mon Cv.</h3>
-      </Link>
     </div>
   );
 }

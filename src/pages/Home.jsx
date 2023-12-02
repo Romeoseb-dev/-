@@ -1,5 +1,6 @@
 import Competences from "../components/Competences";
 import Navbar from "../components/Navbar";
+import Cv from "../components/Cv";
 import dev from "../assets/developpeur-web.jpg";
 import "./Home.css";
 
@@ -15,6 +16,7 @@ function home() {
         </h2>
         <Competences id="competences" />
       </div>
+      <Cv />
     </div>
   );
 }
