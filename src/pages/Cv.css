@@ -22,12 +22,12 @@
 }
 @media screen and (max-width: 600px) {
   .img-cv {
-    width: 400px;
+    width: 380px;
     height: auto;
   }
   .mon-cv {
     display: flex;
     flex-direction: column-reverse;
-    margin: 0;
+    margin-top: 5rem;
   }
 }

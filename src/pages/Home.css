@@ -4,8 +4,9 @@
 }
 .image-dev {
   opacity: 0.2;
-  width: 60%;
+  width: 55%;
   margin: auto;
+  margin-top: 4.8rem;
 }
 .mon-nom {
   color: aliceblue;
@@ -33,9 +34,9 @@
 
 @media screen and (max-width: 600px) {
   .mon-nom {
-    top: 48px;
+    top: 120px;
   }
   .description {
-    top: 100px;
+    top: 170px;
   }
 }

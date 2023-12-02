@@ -13,7 +13,7 @@ function home() {
         <h2 className="description">
           Développeur Fullstack Région Toulousaine
         </h2>
-        <Competences />
+        <Competences id="competences" />
       </div>
     </div>
   );
